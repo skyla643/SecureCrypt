@@ -1,6 +1,8 @@
 Secure Interface Summary
 
-The secure interface, a Python script, utilizes the Fernet encryption scheme from the cryptography library for encrypting and decrypting messages, ensuring both data confidentiality and integrity. Upon execution, the script generates an encryption key if absent, saving it to encryption_key.txt, and prompts the user for a message to encrypt. It then encrypts and saves the message to encrypted_message.txt. For decryption, the script reads the encryption key, decrypts the message, and prints it to the console. The interface guarantees secure encryption and decryption, protecting sensitive information.
+The secure interface, a Python script, utilizes the Fernet encryption scheme from the cryptography library for encrypting and decrypting messages, ensuring both data confidentiality and integrity. 
+Upon execution, the script generates an encryption key if absent, saving it to encryption_key.txt, and prompts the user for a message to encrypt. It then encrypts and saves the message to encrypted_message.txt. 
+For decryption, the script reads the encryption key, decrypts the message, and prints it to the console. The interface guarantees secure encryption and decryption, protecting sensitive information.
 
 Implementation Steps:
 
