@@ -1,20 +1,16 @@
-Secure Interface Summary
-
-The secure interface, a Python script, utilizes the Fernet encryption scheme from the cryptography library for encrypting and decrypting messages, ensuring both data confidentiality and integrity. 
-Upon execution, the script generates an encryption key if absent, saving it to encryption_key.txt, and prompts the user for a message to encrypt. It then encrypts and saves the message to encrypted_message.txt. 
-For decryption, the script reads the encryption key, decrypts the message, and prints it to the console. The interface guarantees secure encryption and decryption, protecting sensitive information.
+SecureCrypt, a Python script, implements the Fernet encryption scheme from the cryptography library to ensure robust encryption and decryption of messages, guaranteeing both data confidentiality and integrity. Upon execution, the script automatically generates an encryption key if absent, saving it to encryption_key.txt, and prompts the user for a message to encrypt. It then securely encrypts and stores the message to encrypted_message.txt. For decryption, the script reads the encryption key, decrypts the message, and displays it to the console. The SecureCrypt interface ensures secure encryption and decryption processes, safeguarding sensitive information effectively.
 
 Implementation Steps:
 
 Install the cryptography library.
 Generate the encryption key.
 Develop and test encryption and decryption functions.
-This interface underscores the importance of data protection in user interfaces, enhancing security and integrity through encryption, thus minimizing risks of eavesdropping or tampering.
+SecureCrypt underscores the paramount importance of data protection in software interfaces, enhancing security and integrity through encryption, thereby mitigating risks of eavesdropping or tampering.
 
 Additional Notes:
 
-Future Access: Plan to make it SSH accessible and compatible with Mac OS.
-Accessibility: Aim for compatibility beyond Windows.
+Future Access: Plans for SSH accessibility and compatibility with Mac OS are underway.
+Accessibility: Aim for cross-platform compatibility beyond Windows.
 Note: Comments were generated using AI to ensure accessibility for all users, including beginners.
 
-When you see: "Your file" it means that is the name of your C file, I made this in visual studio, and didn't want to expose my file c name. 
+When you see "Your file," it indicates the name of your C file. This was done to maintain privacy while using Visual Studio.
